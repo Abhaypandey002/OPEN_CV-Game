@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  subway-controller:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    devices:
+      - "/dev/video0:/dev/video0"
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - ~/.subway_vision:/root/.subway_vision
+    network_mode: host
