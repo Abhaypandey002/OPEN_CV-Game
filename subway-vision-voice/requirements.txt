@@ -1,0 +1,18 @@
+opencv-python==4.8.1.78
+mediapipe==0.10.9
+vosk==0.3.45
+sounddevice==0.4.6
+numpy==1.26.4
+pydantic==1.10.13
+pyyaml==6.0.1
+rich==13.7.1
+loguru==0.7.2
+keyboard==0.13.5
+pynput==1.7.6
+pyobjc-framework-Quartz==9.0; sys_platform == "darwin"
+pyobjc-framework-ApplicationServices==9.0; sys_platform == "darwin"
+pytest==7.4.4
+pytest-mock==3.12.0
+mypy==1.7.1
+ruff==0.1.11
+types-PyYAML==6.0.12.12

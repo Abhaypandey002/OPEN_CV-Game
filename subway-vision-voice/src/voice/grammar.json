@@ -1,0 +1,12 @@
+{
+  "type": "expression",
+  "rule": "<command>",
+  "expressions": {
+    "command": [
+      "start game",
+      "pause game",
+      "resume game",
+      "quit game"
+    ]
+  }
+}
